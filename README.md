@@ -1,5 +1,5 @@
 # YelpCamp
-YelpCamp is a RESTful website for campground posts and reviews. 
+YelpCamp is a RESTful website for campground posts and reviews, builted by HTML, CSS, EJS, BootStrap, Node.js, Express.js and MongoDB. YelpCamp is deployed on Heroku with database on MongoDB Atlas 
 
 ## Specifications
    - Authentication
@@ -19,21 +19,20 @@ YelpCamp is a RESTful website for campground posts and reviews.
      - Sessions and cookies were used
      - Every Campground has it's location displayed seperately on a map
 ## Front End
-     - HTML, CSS, Bootsrap v5.0
-     - EJS, EJS Mate
+   - HTML, CSS, Bootsrap v5.0
+   - EJS, EJS Mate
 ## Back End
-     - NodeJS
-     - ExpressJS
-     - MongoDB
-     - cloudinary
-     - MapBox
-     - passport(local-strategy)
-     - JOI
-     - connect-flash
-     - morgan
-     - sessions
-     - helmet
-     - mongoSanitize
-     - sanitizeHtml
-## Deployed on Heroku with database on MongoDB Atlas
+   - NodeJS
+   - ExpressJS
+   - MongoDB
+   - cloudinary
+   - MapBox
+   - passport(local-strategy)
+   - JOI
+   - connect-flash
+   - morgan
+   - sessions
+   - helmet
+   - mongoSanitize
+   - sanitizeHtml
 
