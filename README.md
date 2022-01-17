@@ -1,17 +1,16 @@
 # YelpCamp
-YelpCamp is a RESTful website for campground posts and reviews, builted by HTML, CSS, EJS, BootStrap, Node.js, Express.js and MongoDB. YelpCamp is deployed on Heroku with database on MongoDB Atlas 
+YelpCamp is a RESTful website for campground posts and reviews, builted by HTML, CSS, EJS, BootStrap, Node.js, Express.js and MongoDB. YelpCamp was deployed on Heroku with database on MongoDB Atlas 
 
 ## Specifications
    - Authentication
-     - User can register and login
+     - Users can register and login
      - Used Passport for that purpose
    - Authorization
-     - User needs to be logged in to make any change(add,update or delete)
-     - A user can only alter his posts or reviews
+     - Users need to log in to make any addtion,update or deletion
+     - A user can only edit his/her own posts or reviews
    - Functionalities
      - Campgrounds are marked on a cluster map using Mapbox API
      - Fuzzy search with automplete using MongoDB Atlas search
-     - Client side and server side validations are done
      - Images of campgrounds are uploaded to Cloudinary
      - Images can be added and deleted after creation of Campground
      - CRUD functions have been implemented on Campgrounds
