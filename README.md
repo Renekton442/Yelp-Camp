@@ -20,7 +20,7 @@ YelpCamp is a RESTful website for campground posts and reviews, builted by HTML,
 ## Front End
    - HTML
    - CSS
-   - Bootsrap
+   - Bootstrap
    - EJS & EJS Mate
 ## Back End
    - Node.js
