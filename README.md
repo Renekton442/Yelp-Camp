@@ -7,7 +7,7 @@ YelpCamp is a RESTful website for campground posts and reviews, builted by HTML,
      - Used Passport for that purpose
    - Authorization
      - Users need to log in to make any addtion,update or deletion
-     - Users can only edit his/her own posts or reviews
+     - Users can only edit their own posts or reviews
    - Functionalities
      - Campgrounds are marked on a cluster map
      - Fuzzy search with automplete using MongoDB Atlas search
