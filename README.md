@@ -3,20 +3,17 @@ YelpCamp is a RESTful website for campground posts and reviews, builted by HTML,
 
 ## Specifications
    - Authentication
-     - Users can register and login
-     - Used Passport for that purpose
+     - Users can sign up and log in
    - Authorization
-     - Users need to log in to make any addtion,update or deletion
+     - Users need to log in to make any creation, update or deletion
      - Users can only edit their own posts or reviews
    - Functionalities
-     - Campgrounds are marked on a cluster map
+     - CRUD functions for Campgrounds 
+     - Campgrounds are marked on a cluster map, and each campground has it's location displayed seperately on a map
      - Fuzzy search with automplete using MongoDB Atlas search
-     - Images of campgrounds are uploaded to Cloudinary
-     - Images can be added and deleted after creation of Campground
-     - CRUD functions have been implemented on Campgrounds
-     - Flash messages were displayed
-     - Sessions and cookies were used
-     - Every Campground has it's location displayed seperately on a map
+     - Images of campgrounds are uploaded to cloud service (Cloudinary)
+     - Images can be added and deleted
+     - Flash messages are employed
 ## Front End
    - HTML
    - CSS
@@ -28,7 +25,7 @@ YelpCamp is a RESTful website for campground posts and reviews, builted by HTML,
    - MongoDB
    - cloudinary
    - MapBox
-   - passport(local-strategy)
+   - passport
    - JOI
    - connect-flash
    - morgan
